@@ -1,7 +1,8 @@
 export default function Home() {
   return (
-    <main style={{display: 'flex', minHeight: '100vh', alignItems: 'center', justifyContent: 'center', background: '#000', color: '#fff'}}>
-      <h1 style={{fontSize: '2rem', fontWeight: 'bold'}}>MediaBox Downloader شغال ✅</h1>
+    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+      <h1 className="text-4xl font-bold text-white">MediaBox Downloader</h1>
+      <p className="mt-4 text-lg text-gray-300">شغال تمام 👌</p>
     </main>
   )
 }
